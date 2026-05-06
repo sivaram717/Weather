@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <form class="weatherForm">
+        <input type="text" class="cityinput" placeholder="Enter City Name">
+        <button type="submit">Get Weather</button>
+    </form>
+
+    <div class="dashboard">
+        <div class="left-section">
+            <div class="card main-weather">
+                <div class="city"></div>
+                <div class="update"></div>
+                <div class="temp"></div>
+                <div class="condition"></div>
+                <div class="weather-title">
+                    WEATHER <br>
+                    UPDATES
+                </div>
+            </div>
+
+            <div class="small-grid">
+                <div class="small-card">
+                    <h4>Humidity</h4>
+                    <p></p>
+                </div>
+                <div class="small-card">
+                    <h4>Wind Speed</h4>
+                    <p></p>
+                </div>
+                <div class="small-card">
+                    <h4>Visibility</h4>
+                    <p></p>
+                </div>
+                <div class="small-card">
+                    <h4>Pressure</h4>
+                    <p></p>
+                </div>
+                <div class="small-card">
+                    <h4>Air Quality</h4>
+                    <p class="airQuality"></p>
+                </div>
+                <div class="small-card">
+                    <h4>Chance of Rain</h4>
+                    <p class="rainChance"></p>
+                </div>
+            </div>
+        </div>
+        <div class="center-section">
+            <div class="timings">
+                <div class="day-card">
+                    <h4 class="weatheremoji"></h4>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="day-card">
+                    <h4 class="weatheremoji"></h4>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="day-card">
+                    <h4 class="weatheremoji"></h4>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="day-card">
+                    <h4 class="weatheremoji"></h4>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="day-card">
+                    <h4 class="weatheremoji"></h4>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="day-card">
+                    <h4 class="weatheremoji"></h4>
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+
+</body>
+</html>
